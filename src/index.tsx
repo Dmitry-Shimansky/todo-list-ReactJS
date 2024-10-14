@@ -48,9 +48,14 @@ const router = createBrowserRouter([
                 element: <ToDoListPage/>,
             },
             {
-                path: '/list/:id',
-                element: <ItemDescription todos={todos}/>,
-            },
+                path: '/list/',
+                children: [
+                    {
+                        path: ':id',
+                        element: <ItemDescription todos={todos}/>,
+                    }
+                ]
+            }
         ]
     },
     {
