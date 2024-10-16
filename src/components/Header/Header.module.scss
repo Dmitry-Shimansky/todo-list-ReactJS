@@ -1,22 +1,22 @@
-.header {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  height: 50px;
-  background-color: #4682b4;
-  display: flex;
-  align-items: center;
-}
-
-.container {
-  max-width: 97%;
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+//.header {
+//  position: fixed;
+//  top: 0;
+//  right: 0;
+//  left: 0;
+//  height: 50px;
+//  background-color: #4682b4;
+//  display: flex;
+//  align-items: center;
+//}
+//
+//.container {
+//  max-width: 97%;
+//  width: 100%;
+//  margin: 0 auto;
+//  display: flex;
+//  align-items: center;
+//  justify-content: center;
+//}
 
 .link {
   text-decoration: none;
@@ -27,3 +27,10 @@
 .active {
   color: #ffffff33;
 }
+
+//.toggleButton {
+//  position: absolute;
+//  right: 0;
+//  top: 50%;
+//  transform: translateY(-50%);
+//}

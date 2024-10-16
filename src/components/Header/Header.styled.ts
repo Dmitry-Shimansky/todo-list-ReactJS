@@ -18,4 +18,16 @@ export const HeaderContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+`
+
+export const HeaderButtonContainer = styled.div`
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+`
+
+export const HeaderButton = styled.button`
+    
 `
