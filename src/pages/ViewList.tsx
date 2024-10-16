@@ -10,7 +10,7 @@ export const ViewList = () => {
     return (
         <div className="container">
             {
-                todoList.map((todo: ToDo, index) => {
+                todoList.map((todo: ToDo, index: number) => {
                     return (<ListItem key={index} todo={todo}/>)
                 })
             }

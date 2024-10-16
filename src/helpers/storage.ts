@@ -9,7 +9,7 @@ export const saveToLocalStorage = (state: RootState) => {
     }
 }
 
-export const loadFromLocalStorage = (state: RootState) => {
+export const loadFromLocalStorage: undefined  | any = (state: RootState) => {
     try {
         const appState = localStorage.getItem('appState')
         if (!appState) return undefined
