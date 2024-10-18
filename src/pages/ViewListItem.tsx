@@ -12,7 +12,7 @@ export const ViewListItem = () => {
     const [todo, setTodo] = useState<ToDo>();
 
     useEffect(() => {
-        const searchTodo = todoList.find((todo) => String(todo.id) === id)
+        const searchTodo = todoList.find((todo: ToDo) => String(todo.id) === id)
         if (searchTodo) {
             setTodo(searchTodo)
         } else {
